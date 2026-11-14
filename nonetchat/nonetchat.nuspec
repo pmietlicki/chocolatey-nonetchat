@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>nonetchat</id>
+    <version>0.3.0</version>
+    <title>NoNetChat</title>
+    <authors>Pascal Mietlicki</authors>
+    <owners>pmietlicki</owners>
+    <copyright>Pascal Mietlicki</copyright>
+    <projectUrl>https://nonetchat.com/en/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/pmietlicki/chocolatey-nonetchat@main/icons/nonetchat.png</iconUrl>
+    <licenseUrl>https://nonetchat.com/en/terms/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <packageSourceUrl>https://github.com/pmietlicki/chocolatey-nonetchat</packageSourceUrl>
+    <projectSourceUrl>https://github.com/pmietlicki/nonetchat-windows</projectSourceUrl>
+    <releaseNotes>https://github.com/pmietlicki/nonetchat-windows/releases/tag/v0.3.0</releaseNotes>
+    <tags>nonetchat chat messenger offline mesh bluetooth lan emergency privacy freeware</tags>
+    <summary>Chat with people nearby without Internet, cellular network, server or account.</summary>
+    <description><![CDATA[NoNetChat lets you talk with people around you when there is no Internet or mobile network: at festivals, on campus, while travelling, or during an outage.
+
+- Messages travel directly between nearby devices over Bluetooth and the local network, relayed hop by hop.
+- No account, no server, no phone number; just a nickname.
+- End-to-end encrypted private conversations after mutual consent, private groups, public messages to the area around you, emergency alerts.
+- Free, no ads.
+
+Range and background operation depend on devices and networks; NoNetChat is not a rescue service.
+
+This package installs the official portable Windows x64 build published on GitHub (the same file as on nonetchat.com) and adds a Start Menu shortcut. Your profile and history stay in your user folder when the package is uninstalled.]]></description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
